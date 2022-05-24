@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Bootstrap homework four">
+    <meta name="description" content="This is example of bootstrap 5 layout practice mainly include container, grid, column, gutter, utilities and css grid. This is for the purpose of practice only">
+    <meta name="keywords" content="Bootstrap5, html5, responsive, css, websitedesign, websitedevelopement, ">
+    <meta name="robots" content="index, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Aklima akther ruhina">
+    <title>Bootstrap Homework four</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <section class="grid">
+        <div class="container">
+            <h2 class="text-center mb-2">Grid Example</h2>
+            <div class="row">
+                <div class="col-lg themed-container">grid column auto</div>
+                <div class="col-lg-7 themed-container">grid column 7</div>
+                <div class="col-lg themed-container">grid column auto</div>
+            </div>
+            <hr>
+            <h2 class="text-center mb-2">Equal Width grid</h2>
+            <div class="row">
+                <div class="col themed-container">1 of 2</div>
+                <div class="col themed-container">2 of 2</div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col themed-container">Three column with same width</div>
+                <div class="col themed-container">Three column with same width</div>
+                <div class="col themed-container">Three column with same width</div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col themed-container">four column with same width</div>
+                <div class="col themed-container">four column with same width</div>
+                <div class="col themed-container">four column with same width</div>
+                <div class="col themed-container">four column with same width</div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col themed-container">Single column field</div>
+                <div class="col-6 themed-container">Single column field with column 6</div>
+                <div class="col themed-container">Single column field</div>
+            </div>
+            <div class="row">
+                <div class="col themed-container">Single column field</div>
+                <div class="col-5 themed-container">Single column field with column 5</div>
+                <div class="col themed-container">Single column field</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-center mb-2">Row column</h2>
+            <p>Row Column with 2</p>
+            <div class="row row-cols-2">
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+            </div>
+            <p class="py-2">Row columns with 3</p>
+            <div class="row row-cols-3">
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+            </div>
+            <p class="py-2">Row columns with 4</p>
+            <div class="row row-cols-4">
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col-6 themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+            </div>
+            <p class="py-2">Auto Row colum</p>
+            <div class="row row-cols-auto">
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+                <div class="col themed-col">Column</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row bg-light">
+                <div class="col-lg"><div class="bg-red p-4"></div></div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="bg-blue p-4 h-20">multi column</div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="bg-blue p-4 h-20">text columm</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg"><div class="bg-red p-4"></div></div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Columns</h2>
+            <p>Learn how to modify columns with a handful of options for alignment, ordering, and offsetting thanks to our flexbox grid system. Plus, see how to use column classes to manage widths of non-grid elements.</p>
+            <h2>Vertical Alignment</h2>
+            <p>This will make content into vertical alignment in three positions. align-items-start, align-items-center, align-items-end. If we struggle to use padding/Margin to make them into top right center then we can use this alignment.</p>
+          
+            <div class="row align-items-start mb-2 bg-primary" style="height:10rem">
+                <div class="col themed-col">
+                    One of three columns
+                </div>
+                <div class="col themed-col">
+                    One of three columns
+                </div>
+                <div class="col themed-col">
+                    One of three columns
+                </div>
+            </div>
+            <div class="row align-items-center mb-2 bg-yellow" style="height:10rem">
+                <div class="col themed-col">
+                    One of three columns
+                </div>
+                <div class="col themed-col">
+                    One of three columns
+                </div>
+                <div class="col themed-col">
+                    One of three columns
+                </div>
+            </div>
+            <div class="row align-items-end mb-2 bg-green" style="height:10rem">
+                <div class="col themed-col text-white">
+                    One of three columns
+                </div>
+                <div class="col themed-col text-white">
+                    One of three columns
+                </div>
+                <div class="col themed-col text-white">
+                    One of three columns
+                </div>
+            </div>
+            <div class="row bg-light" style="height:10rem">
+                <div class="col align-self-start"><div class="themed-col">Align self start</div></div>
+                <div class="col align-self-center"><div class="themed-col">Align self center</div></div>
+                <div class="col align-self-end"><div class="themed-col">Align self end</div></div>
+
+            </div>
+        </div>
+        <div class="container">
+            <h2>Horizontal alignment</h2>
+            <p>include justify-content-start,justify-content-center, justify-content-end, justify-content around, justify-content-beetween, justify-content-evenly.They are mostly used for menubar and make content alignment into correct position</p>
+            <div class="row gx-5 justify-content-start mb-2">
+              <div class="col-4">
+                  <div class="themed-col">one of two columne</div>
+               
+              </div>
+              <div class="col-4">
+                  <div class="themed-col">One of two columns</div>
+              </div>
+            </div>
+            <div class="row justify-content-center mb-2">
+                <div class="col-4">
+                    <div class="themed-col">one of two columne</div>
+                 
+                </div>
+                <div class="col-4">
+                    <div class="themed-col">One of two columns</div>
+                </div>
+            </div>
+            <div class="row justify-content-end mb-2">
+                <div class="col-4">
+                    <div class="themed-col">one of two columne</div>
+                 
+                </div>
+                <div class="col-4">
+                    <div class="themed-col">One of two columns</div>
+                </div>
+            </div>
+            <div class="row justify-content-around mb-2">
+                <div class="col-4">
+                    <div class="themed-col">one of two columne</div>
+                 
+                </div>
+                <div class="col-4">
+                    <div class="themed-col">One of two columns</div>
+                </div>
+            </div>
+            <div class="row justify-content-between mb-2">
+                <div class="col-4">
+                    <div class="themed-col">one of two columne</div>
+                 
+                </div>
+                <div class="col-4">
+                    <div class="themed-col">One of two columns</div>
+                </div>
+            </div>
+            <div class="row justify-content-evenly mb-2">
+                <div class="col-4">
+                    <div class="themed-col">one of two columne</div>
+                 
+                </div>
+                <div class="col-4">
+                    <div class="themed-col">One of two columns</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><div class="themed-col">.col-md-4</div> </div>
+                <div class="col-md-4 offset-md-4"><div class="themed-col">.col-md-4 .offset-md-4</div></div>
+              </div>
+          </div>
+    </section>
+</body>
+</html>

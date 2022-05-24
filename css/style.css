@@ -4,3 +4,14 @@
 .bg-blue{background: #0d6efd;}
 .bg-green{background: #198754;;}
 .bg-yellow{background:#ffc107}
+.themed-container{
+    padding: .75rem;
+      margin-bottom: 1.5rem;
+      background-color: rgba(0, 123, 255, .15);
+      border: 1px solid rgba(0, 123, 255, .2);
+  }
+  .themed-col{
+    padding: .75rem;
+    background: rgb(239 243 12 / 12%);
+    border: 1px solid rgba(86, 61, 124, .2); 
+  }
