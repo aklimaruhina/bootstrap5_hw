@@ -14,6 +14,10 @@
     <title>Bootstrap Utitlity Example</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <style type="text/css">
+    .img_gallery img{width: 150px;height: 150px;display: inline-block;background: pink; margin-top: 25px;padding: 5px 6px;margin-right: 5px;}
+    .box-black{background: #000;width:50px;height: 50px;margin: 5px;}
+    </style>
 </head>
 <body>
 
@@ -68,6 +72,144 @@
                     <div class="box border-start"></div>
                     <div class="box border-bottom"></div>
                 </div>
+                <div class="d-flex flex-row bd-highlight mb-3 flex-wrap img_gallery">
+                    <img src="img/avatar.png" class="rounded" alt="image1">
+                    <img src="img/avatar2.png" class="rounded-top" alt="image">
+                    <img src="img/avatar3.png" class="rounded-end" alt="Image">
+                    <img src="img/avatar04.png" class="rounded-bottom" alt="Image">
+                    <img src="img/avatar5.png" class="rounded-start" alt="Image">
+                    <img src="img/avatar3.png" class="rounded-circle" alt="Image">
+                    <img src="img/avatar.png" class="rounded-pill" alt="Image">
+                    <img src="img/avatar5.png" class="rounded-1" alt="Image">
+                    <img src="img/avatar3.png" class="rounded-2" alt="Image">
+                    <img src="img/avatar.png" class="rounded-3" alt="Image">
+                </div> 
+                <div class="row">
+                    <div class="col-12"><p class="text-primary">.text-primary</p>
+                        <p class="text-secondary">.text-secondary</p>
+                        <p class="text-success">.text-success</p>
+                        <p class="text-danger">.text-danger</p>
+                        <p class="text-warning bg-dark">.text-warning</p>
+                        <p class="text-info bg-dark">.text-info</p>
+                        <p class="text-light bg-dark">.text-light</p>
+                        <p class="text-dark">.text-dark</p>
+                        <p class="text-body">.text-body</p>
+                        <p class="text-muted">.text-muted</p>
+                        <p class="text-white bg-dark">.text-white</p>
+                        <p class="text-black-50">.text-black-50</p>
+                        <p class="text-white-50 bg-dark">.text-white-50</p>
+                        <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+                        <div class="d-inline p-2 bg-dark text-white mb-3">d-inline</div>
+                        <br>
+                        <div class="d-block p-2 bg-primary text-white">d-block</div>
+                        <div class="d-block p-2 bg-dark text-white">d-block</div>
+                    </div>  
+                </div>
+                <div class="d-flex p-2 bg-highlight">I'm a flexbox container!</div>
+                <div class="d-inline-flex p-2 bg-primary">I'm an inline flexbox container!</div>
+                <div class="float-start">Float start on all viewport sizes</div><br>
+                <div class="float-end">Float end on all viewport sizes</div><br>
+                <div class="float-none">Don't float on all viewport sizes</div>
+                <div class="overflow-auto border border-1 border-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="overflow-hidden border border-1 border-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="overflow-visible border border-1 border-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="overflow-scroll border border-1 border-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="position-relative mt-3 py-4 bg-primary" style="height:10rem;">
+                  <div class="position-absolute top-0 start-0"><div class="box-black"></div></div>
+                  <div class="position-absolute top-0 end-0"><div class="box-black"></div></div>
+                  <div class="position-absolute top-50 start-50"><div class="box-black"></div></div>
+                  <div class="position-absolute bottom-50 end-50"><div class="box-black"></div></div>
+                  <div class="position-absolute bottom-0 start-0"><div class="box-black"></div></div>
+                  <div class="position-absolute bottom-0 end-0"><div class="box-black"></div></div>
+                </div>
+                <div class="mb-4"></div>
+                <button type="button" class="btn btn-primary position-relative">
+                  Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
+                </button>
+
+                <button type="button" class="btn btn-dark position-relative">
+                  Marker <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+                </button>
+
+                <button type="button" class="btn btn-primary position-relative">
+                  Alerts <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden">unread messages</span></span>
+                </button>
+                <div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+                <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+                <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+                <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+                <div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
+                <div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
+                <div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
+                <div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
+                <div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+                <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+                  <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+                  <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+                  <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+                  <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+                  <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+                </div>
+                <h3>Text alignemnt</h3>
+                <p class="text-start">Start aligned text on all viewport sizes.</p>
+                <p class="text-center">Center aligned text on all viewport sizes.</p>
+                <p class="text-end">End aligned text on all viewport sizes.</p>
+
+                <p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
+                <p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
+                <p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
+                <p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+                <div class="text-nowrap bd-highlight" style="width: 8rem;">
+  This text should overflow the parent.
+</div>
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
+<p class="fs-1">.fs-1 text</p>
+<p class="fs-2">.fs-2 text</p>
+<p class="fs-3">.fs-3 text</p>
+<p class="fs-4">.fs-4 text</p>
+<p class="fs-5">.fs-5 text</p>
+<p class="fs-6">.fs-6 text</p>
+<p class="fw-bold">Bold text.</p>
+<p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+<p class="fw-normal">Normal weight text.</p>
+<p class="fw-light">Light weight text.</p>
+<p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+<p class="fst-italic">Italic text.</p>
+<p class="fst-normal">Text with normal font style</p>
+<table style="height: 100px;">
+  <tbody>
+    <tr>
+      <td class="align-baseline">baseline</td>
+      <td class="align-top">top</td>
+      <td class="align-middle">middle</td>
+      <td class="align-bottom">bottom</td>
+      <td class="align-text-top">text-top</td>
+      <td class="align-text-bottom">text-bottom</td>
+    </tr>
+  </tbody>
+</table>
             </div>
         </div>
     </div>
